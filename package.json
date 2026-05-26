@@ -1,0 +1,47 @@
+{
+  "name": "test-ci-cd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "imports": {
+    "#config": "./src/config/index.js",
+    "#controllers": "./src/controllers/index.js",
+    "#errors": "./src/errors/index.js",
+    "#middlewares": "./src/middlewares/index.js",
+    "#models": "./src/models/index.js",
+    "#routes": "./src/routes/index.js",
+    "#services": "./src/services/index.js",
+    "#utils": "./src/utils/index.js",
+    "#validators": "./src/validators/index.js",
+    "#consts": "./src/consts.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_ENV=development nodemon ./src/server.js",
+    "start": "cross-env NODE_ENV=production  node ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Niladri-Sarkhel/test-ci-cd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Niladri-Sarkhel/test-ci-cd/issues"
+  },
+  "homepage": "https://github.com/Niladri-Sarkhel/test-ci-cd#readme",
+  "dependencies": {
+    "cross-env": "^10.1.0",
+    "dotenv": "^17.4.2",
+    "dotenv-expand": "^13.0.0",
+    "express": "^5.2.1",
+    "joi": "^18.2.1",
+    "nodemon": "^3.1.14",
+    "pino": "^10.3.1"
+  }
+}
