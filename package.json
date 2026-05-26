@@ -36,12 +36,15 @@
   },
   "homepage": "https://github.com/Niladri-Sarkhel/test-ci-cd#readme",
   "dependencies": {
+    "bcrypt": "^6.0.0",
     "cross-env": "^10.1.0",
     "dotenv": "^17.4.2",
     "dotenv-expand": "^13.0.0",
     "express": "^5.2.1",
     "joi": "^18.2.1",
+    "jsonwebtoken": "^9.0.3",
     "nodemon": "^3.1.14",
-    "pino": "^10.3.1"
+    "pino": "^10.3.1",
+    "pino-loki": "^3.0.0"
   }
 }
