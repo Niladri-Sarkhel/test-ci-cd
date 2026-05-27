@@ -13,3 +13,5 @@ app
     return res.status(400).json({ message: "page not found :(" });
   })
   .use(handleReqErrors);
+
+// hello, this is the discord-github webhook testing message
